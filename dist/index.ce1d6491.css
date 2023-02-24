@@ -1,6 +1,80 @@
 body {
-  color: #9d1515;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+body a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body p {
+  margin: 0;
+}
+
+body header {
+  color: #f7f7f7;
+  height: 15vh;
+  background-color: #f3c225;
+  justify-content: space-between;
+  padding: 0 35px;
+  display: flex;
+}
+
+body header img {
+  height: 10vh;
+  width: 10vh;
+  border-radius: 100px;
+  align-self: center;
+  box-shadow: 0 7px 29px #64646f33;
+}
+
+body header h1 {
+  align-self: center;
+  margin: 0;
+}
+
+body section {
+  height: 85vh;
+  text-align: center;
   background-color: #f1f1f1;
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+}
+
+body section div {
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+  border-radius: 5px;
+  flex-direction: column;
+  place-self: center;
+  padding: 0 20px;
+  display: flex;
+  box-shadow: 0 7px 29px #64646f33;
+}
+
+body section div p {
+  margin: 5px 0;
+}
+
+body section div:last-child {
+  border-left: 2px solid #0000001a;
+}
+
+body footer {
+  color: #fff;
+  height: 25vh;
+  background-color: #000;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 35px;
+  display: grid;
+}
+
+body footer div {
+  flex-direction: column;
+  gap: 5px;
+  display: flex;
 }
 
 /*# sourceMappingURL=index.ce1d6491.css.map */
