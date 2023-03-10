@@ -3,7 +3,7 @@
   "source": "src/index.html",
   "scripts": {
     "watch": "parcel",
-    "build": "parcel build index.html --public-url /"
+    "build": "parcel build src/index.html --public-url ./"
   },
   "dependencies": {
     "sass": "^1.58.3"
